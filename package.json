@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "create-react-app": "^5.1.0",
+    "express": "^5.1.0",
+    "react-router-dom": "^7.6.3"
+  },
+  "name": "react-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "simplilearn",
+  "license": "ISC",
+  "description": "express tutorial by simplelearn"
+}

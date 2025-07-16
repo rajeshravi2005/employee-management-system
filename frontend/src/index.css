@@ -1,0 +1,215 @@
+/* Default styles */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* 🌟 Table Styling for EmployeeList */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+/* 🌟 Button Styling */
+button {
+  margin-right: 5px;
+  padding: 6px 12px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Optional: Basic layout polish */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+
+
+/* 🌟 Navbar Styling */
+nav {
+  background-color: #282c34;
+  padding: 15px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+ 
+.login-container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #0056b3;
+}
+
+/* 🌟 Employee Table Styling */
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+.employee-table th,
+.employee-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.employee-table th {
+  background-color: #f2f2f2;
+}
+
+.employee-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+.employee-actions button {
+  margin-right: 6px;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.employee-actions .edit {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.employee-actions .delete {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+/*form styling(employeeform)*/
+
+form {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  box-sizing: border-box;
+}
+
+form button {
+  padding: 8px 16px;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+form button:hover {
+  background-color: #218838;
+}
+
+
+/* 🌟 Toast Notification Override */
+
+.Toastify__toast--success {
+  background-color: #28a745;
+  color: white;
+}
+
+.Toastify__toast--error {
+  background-color: #dc3545;
+  color: white;
+}
